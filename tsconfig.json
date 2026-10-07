@@ -1,0 +1,17 @@
+{
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "exclude": [
+    "./**/*.test.ts"
+  ],
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "esnext",
+    "moduleResolution": "nodenext",
+    "module": "nodenext",
+    "removeComments": false,
+    "declaration": true,
+    "outDir": "./lib"
+  }
+}
